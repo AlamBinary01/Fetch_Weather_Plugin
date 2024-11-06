@@ -1,0 +1,83 @@
+.dap-wrap {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dap-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dap-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.dap-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dap-form label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.dap-form input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dap-form input[type="submit"] {
+    cursor: pointer;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.dap-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+.dap-weather-box {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #0073aa;
+    border-radius: 5px;
+    background-color: #e3f7ff;
+    text-align: center;
+}
+
+.dap-weather-box h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #0073aa;
+}
+
+.dap-weather-box p {
+    font-size: 16px;
+    color: #333;
+}
+
+.dap-weather-box img {
+    margin-top: 10px;
+    width: 80px;
+}
